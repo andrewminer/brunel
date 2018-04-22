@@ -1,0 +1,14 @@
+.DS_Store
+.ReAuth.cfg
+.mixin.out/
+*.log
+crash-reports/
+fonts/
+logs/
+options.txt
+realms_persistence.json
+saves/
+usercache.json
+usernamecache.json
+*.swp
+config/XaeroWaypoints/

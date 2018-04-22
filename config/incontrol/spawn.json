@@ -1,0 +1,65 @@
+[
+    {
+        "mob": "creeper",
+
+        "maxlight": 7,
+        "mintime": 13000,
+        "weather": "thunder",
+
+        "result": "allow"
+    },
+    {
+        "mob": "enderman",
+
+        "weather": "raining",
+        "weather": "thunder",
+
+        "result": "deny"
+    },
+    {
+        "mob": "enderman",
+
+        "isnotcolliding": true,
+        "random": 0.2,
+
+        "result": "allow"
+    },
+    {
+        "mob": "spider",
+
+        "biometype": "FOREST",
+        "dimension": 0,
+        "isnotcolliding": true,
+        "maxlight": 4,
+        "mintime": 12000,
+
+        "result": "allow"
+    },
+    {
+        "mob": "witch",
+
+        "isnotcolliding": true,
+        "structure": "temple",
+
+        "result": "allow"
+    },
+    {
+        "hostile": true,
+
+        "block": "ore:stone",
+        "dimension": 0,
+        "isnotcolliding": true,
+        "maxlight": 0,
+        "seesky": false,
+
+        "result": "allow"
+    },
+    {
+        "passive": true,
+
+        "result": "default"
+    },
+    {
+        "result": "deny"
+    }
+]

@@ -1,0 +1,10 @@
+{EnderIO:[
+	{keep:[block,[*used*,Painted*],[1]]};
+	{keep:[block,[ElectricLight,Decoration*,DarkSteelAnvil],[0]]};
+	{keep-one:[[itemSoulVessel,blockPoweredSpawner,blockCapBank],[]]};
+	{hide:[item,[BrokenSpawner],[]]};
+	{hide:[block,[BrokenSpawner,IngotStorage],[]]};
+	{hide:[item,[TravelStaff,Magnet],[0],['']]};
+	
+]
+}
