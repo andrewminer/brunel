@@ -20,6 +20,7 @@
         "mob": "enderman",
 
         "isnotcolliding": true,
+        "maxlight": 7,
         "random": 0.2,
 
         "result": "allow"
