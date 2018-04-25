@@ -1,0 +1,16 @@
+{
+    "agricraft": [
+        {
+            "keep-one": [
+                [ "Wooden Water Tank", "Wooden Irrigation Channel", "Wooden Channel Valve", "Wooden Grate" ],
+                []
+            ]
+        },
+        {
+            "hide": [[],[]]
+        },
+        {
+            "keep": [[],[0]]
+        }
+    ]
+}

@@ -19,6 +19,7 @@
     {
         "mob": "enderman",
 
+        "dim": 0,
         "isnotcolliding": true,
         "maxlight": 7,
         "random": 0.2,

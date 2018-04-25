@@ -59,7 +59,7 @@ ofLazyChunkLoading:true
 ofRenderRegions:true
 ofDynamicFov:false
 ofAlternateBlocks:true
-ofDynamicLights:3
+ofDynamicLights:1
 ofScreenshotSize:1
 ofCustomEntityModels:true
 ofCustomGuis:true

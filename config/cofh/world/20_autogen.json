@@ -1,0 +1,4043 @@
+{
+    "populate": {
+        "COAL-DEEP-MESA": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MESA"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-DEEP-FOREST": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "FOREST"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-DEEP-PLAINS": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "PLAINS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-BURIED-PLAINS": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 8,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "PLAINS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-SURFACE-PLAINS": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 65,
+            "max-height": 80,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "PLAINS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-DEEP-MOUNTAIN": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 20,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-BURIED-MOUNTAIN": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 8,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-SURFACE-MOUNTAIN": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 65,
+            "max-height": 80,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-HILLS-MOUNTAIN": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 81,
+            "max-height": 128,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-MOUNTAINS-MOUNTAIN": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 96,
+            "distribution": "uniform",
+            "min-height": 128,
+            "max-height": 256,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-DEEP-HILLS": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 20,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "HILLS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-BURIED-HILLS": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 8,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "HILLS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-SURFACE-HILLS": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 65,
+            "max-height": 80,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "HILLS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-DEEP-SWAMP": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 20,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SWAMP"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-BURIED-SWAMP": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SWAMP"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-DEEP-SANDY": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SANDY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-DEEP-SNOWY": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SNOWY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-DEEP-WASTELAND": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "WASTELAND"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-DEEP-BEACH": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "BEACH"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-DEEP-MUSHROOM": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 20,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MUSHROOM"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-BURIED-MUSHROOM": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MUSHROOM"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-DEEP-RIVER": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "RIVER"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COAL-DEEP-OCEAN": {
+            "enabled": true,
+            "generator": {
+                "block": "coal_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "OCEAN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-DEEP-MESA": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MESA"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-BURIED-MESA": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MESA"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-DEEP-FOREST": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "FOREST"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-BURIED-FOREST": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "FOREST"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-DEEP-PLAINS": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "PLAINS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-BURIED-PLAINS": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "PLAINS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-LAVA-MOUNTAIN": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-DEEP-MOUNTAIN": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-BURIED-MOUNTAIN": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 8,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-SURFACE-MOUNTAIN": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 8,
+            "distribution": "uniform",
+            "min-height": 65,
+            "max-height": 80,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-HILLS-MOUNTAIN": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 35,
+            "distribution": "uniform",
+            "min-height": 81,
+            "max-height": 128,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-MOUNTAINS-MOUNTAIN": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 96,
+            "distribution": "uniform",
+            "min-height": 128,
+            "max-height": 256,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-LAVA-HILLS": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "HILLS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-DEEP-HILLS": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 20,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "HILLS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-BURIED-HILLS": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 8,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "HILLS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-SURFACE-HILLS": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 65,
+            "max-height": 80,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "HILLS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-HILLS-HILLS": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 35,
+            "distribution": "uniform",
+            "min-height": 81,
+            "max-height": 128,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "HILLS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-DEEP-SWAMP": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SWAMP"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-DEEP-SANDY": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SANDY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-BURIED-SANDY": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SANDY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-DEEP-SNOWY": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SNOWY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-BURIED-SNOWY": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SNOWY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-DEEP-WASTELAND": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "WASTELAND"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-BURIED-WASTELAND": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "WASTELAND"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-DEEP-BEACH": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "BEACH"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-BURIED-BEACH": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "BEACH"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-DEEP-RIVER": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "RIVER"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "IRON-DEEP-OCEAN": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "iron_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "OCEAN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "GOLD-DEEP-MESA": {
+            "enabled": true,
+            "generator": {
+                "block": "gold_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MESA"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "GOLD-BURIED-MESA": {
+            "enabled": true,
+            "generator": {
+                "block": "gold_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 8,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MESA"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "GOLD-SURFACE-MESA": {
+            "enabled": true,
+            "generator": {
+                "block": "gold_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 65,
+            "max-height": 80,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MESA"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "GOLD-HILLS-MESA": {
+            "enabled": true,
+            "generator": {
+                "block": "gold_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 35,
+            "distribution": "uniform",
+            "min-height": 81,
+            "max-height": 128,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MESA"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "GOLD-LAVA-SANDY": {
+            "enabled": true,
+            "generator": {
+                "block": "gold_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 7,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SANDY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "GOLD-DEEP-SANDY": {
+            "enabled": true,
+            "generator": {
+                "block": "gold_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 20,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SANDY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "GOLD-BURIED-SANDY": {
+            "enabled": true,
+            "generator": {
+                "block": "gold_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SANDY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "GOLD-DEEP-WASTELAND": {
+            "enabled": true,
+            "generator": {
+                "block": "gold_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 20,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "WASTELAND"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "GOLD-BURIED-WASTELAND": {
+            "enabled": true,
+            "generator": {
+                "block": "gold_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "WASTELAND"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "DIAMOND-LAVA-MESA": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "diamond_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "emerald_ore",
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MESA"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "DIAMOND-LAVA-FOREST": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "diamond_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "emerald_ore",
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "FOREST"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "DIAMOND-LAVA-PLAINS": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "diamond_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "emerald_ore",
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "PLAINS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "DIAMOND-LAVA-MOUNTAIN": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "diamond_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "emerald_ore",
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "DIAMOND-LAVA-HILLS": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "diamond_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "emerald_ore",
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "HILLS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "DIAMOND-LAVA-SWAMP": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "diamond_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "emerald_ore",
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SWAMP"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "DIAMOND-LAVA-SANDY": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "diamond_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "emerald_ore",
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SANDY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "DIAMOND-LAVA-SNOWY": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "diamond_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "emerald_ore",
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SNOWY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "DIAMOND-LAVA-WASTELAND": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "diamond_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "emerald_ore",
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "WASTELAND"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "DIAMOND-LAVA-BEACH": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "diamond_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "emerald_ore",
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 7,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "BEACH"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "DIAMOND-LAVA-RIVER": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "diamond_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "emerald_ore",
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 7,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "RIVER"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "DIAMOND-LAVA-OCEAN": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "diamond_ore",
+                        "weight": 80
+                    },
+                    {
+                        "name": "emerald_ore",
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 7,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "OCEAN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "TIN-BURIED-FOREST": {
+            "enabled": true,
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 1
+                },
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "FOREST"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "TIN-BURIED-PLAINS": {
+            "enabled": true,
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 1
+                },
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "PLAINS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "TIN-BURIED-SWAMP": {
+            "enabled": true,
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 1
+                },
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SWAMP"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COPPER-LAVA-FOREST": {
+            "enabled": true,
+            "generator": {
+                "block": "thermalfoundation:ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 7,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "FOREST"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COPPER-DEEP-FOREST": {
+            "enabled": true,
+            "generator": {
+                "block": "thermalfoundation:ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "FOREST"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COPPER-BURIED-FOREST": {
+            "enabled": true,
+            "generator": {
+                "block": "thermalfoundation:ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 8,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "FOREST"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COPPER-SURFACE-FOREST": {
+            "enabled": true,
+            "generator": {
+                "block": "thermalfoundation:ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 65,
+            "max-height": 80,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "FOREST"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COPPER-DEEP-MOUNTAIN": {
+            "enabled": true,
+            "generator": {
+                "block": "thermalfoundation:ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COPPER-BURIED-MOUNTAIN": {
+            "enabled": true,
+            "generator": {
+                "block": "thermalfoundation:ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COPPER-DEEP-HILLS": {
+            "enabled": true,
+            "generator": {
+                "block": "thermalfoundation:ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "HILLS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "COPPER-DEEP-RIVER": {
+            "enabled": true,
+            "generator": {
+                "block": "thermalfoundation:ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "RIVER"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "APATITE-BURIED-PLAINS": {
+            "enabled": true,
+            "generator": {
+                "block": "forestry:resources",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 8,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "PLAINS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "APATITE-SURFACE-PLAINS": {
+            "enabled": true,
+            "generator": {
+                "block": "forestry:resources",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 65,
+            "max-height": 80,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "PLAINS"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "ALUMINUM-LAVA-SANDY": {
+            "enabled": true,
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 4
+                },
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SANDY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "ALUMINUM-DEEP-SANDY": {
+            "enabled": true,
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 4
+                },
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SANDY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "ALUMINUM-BURIED-SANDY": {
+            "enabled": true,
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 4
+                },
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 8,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SANDY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "ALUMINUM-SURFACE-SANDY": {
+            "enabled": true,
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 4
+                },
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 65,
+            "max-height": 80,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SANDY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "LEAD-LAVA-SNOWY": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 3,
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 2,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SNOWY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "LEAD-DEEP-SNOWY": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 3,
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 2,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SNOWY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "LEAD-BURIED-SNOWY": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 3,
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 2,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 8,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SNOWY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "LEAD-SURFACE-SNOWY": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 3,
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 2,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 65,
+            "max-height": 80,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SNOWY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "LEAD-HILLS-SNOWY": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 3,
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 2,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 81,
+            "max-height": 128,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SNOWY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "LEAD-MOUNTAINS-SNOWY": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 3,
+                        "weight": 80
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 2,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 96,
+            "distribution": "uniform",
+            "min-height": 128,
+            "max-height": 256,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "SNOWY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "URANIUM-LAVA-WASTELAND": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "immersiveengineering:ore",
+                        "metadata": 5,
+                        "weight": 80
+                    },
+                    {
+                        "name": "immersiveengineering:ore",
+                        "metadata": 2,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "WASTELAND"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "URANIUM-DEEP-WASTELAND": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "immersiveengineering:ore",
+                        "metadata": 5,
+                        "weight": 80
+                    },
+                    {
+                        "name": "immersiveengineering:ore",
+                        "metadata": 2,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 20,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "WASTELAND"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "URANIUM-BURIED-WASTELAND": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "immersiveengineering:ore",
+                        "metadata": 5,
+                        "weight": 80
+                    },
+                    {
+                        "name": "immersiveengineering:ore",
+                        "metadata": 2,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "WASTELAND"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "TIN-BEACH-GRAVEL": {
+            "enabled": true,
+            "generator": {
+                "block": "gravelores:tin_gravel_ore",
+                "material": [
+                    "gravel"
+                ],
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 16,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 65,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "BEACH"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "gen-fluid": "water"
+        },
+        "IRON-RIVER-GRAVEL": {
+            "enabled": true,
+            "generator": {
+                "block": "gravelores:iron_gravel_ore",
+                "material": [
+                    "gravel"
+                ],
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 22,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 65,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "RIVER"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "gen-fluid": "water"
+        },
+        "GOLD-RIVER-GRAVEL": {
+            "enabled": true,
+            "generator": {
+                "block": "gravelores:gold_gravel_ore",
+                "material": [
+                    "gravel"
+                ],
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 22,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 65,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "RIVER"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "gen-fluid": "water"
+        },
+        "LAPIS-RIVER-GRAVEL": {
+            "enabled": true,
+            "generator": {
+                "block": "gravelores:lapis_gravel_ore",
+                "material": [
+                    "gravel"
+                ],
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 16,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 65,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "RIVER"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "gen-fluid": "water"
+        },
+        "TIN-RIVER-GRAVEL": {
+            "enabled": true,
+            "generator": {
+                "block": "gravelores:tin_gravel_ore",
+                "material": [
+                    "gravel"
+                ],
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 16,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 65,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "RIVER"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "gen-fluid": "water"
+        },
+        "IRON-OCEAN-GRAVEL": {
+            "enabled": true,
+            "generator": {
+                "block": "gravelores:iron_gravel_ore",
+                "material": [
+                    "gravel"
+                ],
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 22,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 65,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "OCEAN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "gen-fluid": "water"
+        },
+        "GOLD-OCEAN-GRAVEL": {
+            "enabled": true,
+            "generator": {
+                "block": "gravelores:gold_gravel_ore",
+                "material": [
+                    "gravel"
+                ],
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 22,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 65,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "OCEAN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "gen-fluid": "water"
+        },
+        "LAPIS-OCEAN-GRAVEL": {
+            "enabled": true,
+            "generator": {
+                "block": "gravelores:lapis_gravel_ore",
+                "material": [
+                    "gravel"
+                ],
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 22,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 65,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "OCEAN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "gen-fluid": "water"
+        },
+        "TIN-OCEAN-GRAVEL": {
+            "enabled": true,
+            "generator": {
+                "block": "gravelores:tin_gravel_ore",
+                "material": [
+                    "gravel"
+                ],
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 22,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 65,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "OCEAN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "gen-fluid": "water"
+        }
+    }
+}
