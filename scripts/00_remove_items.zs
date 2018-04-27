@@ -1,16 +1,16 @@
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide;
 
 function removeAll(itemStack as IItemStack, metadata as int[]) {
-    val itemDef = itemStack.definition as IItemDefinition;
-    for i in metadata {
-        removeAndHide(itemDef.makeStack(i));
+    for index in metadata {
+        removeAndHide(itemStack.definition.makeStack(index));
     }
 }
 
 function removeInRange(itemStack as IItemStack, start as int, end as int) {
-    val itemDef = itemStack.definition as IItemDefinition;
     for i in start..end {
-        removeAndHide(itemDef.makeStack(i));
+        removeAndHide(itemStack.definition.makeStack(i));
     }
 }
 
@@ -40,11 +40,12 @@ removeAndHide(<thermalfoundation:glass>);
 removeAndHide(<thermalfoundation:meter>);
 removeAndHide(<thermalfoundation:rockwool>);
 removeAndHide(<thermalfoundation:security>);
+removeAndHide(<twilightforest:ore_meter>);
 
-removeAll(<thermalfoundation:bait>, [ 0, 1, 2 ]);
-removeAll(<thermalfoundation:coin>, [ 0, 65, 67, 68, 69, 70, 71, 72, 96, 97, 98, 99, 100, 101, 102, 103 ]);
-removeAll(<thermalfoundation:material>, [ 512, 513, 514, 515, 771, 800, 801 ]);
+removeAll(<thermalfoundation:bait>, [ 0, 1, 2 ] as int[]);
+removeAll(<thermalfoundation:coin>, [ 0, 65, 67, 68, 69, 70, 71, 72, 96, 97, 98, 99, 100, 101, 102, 103 ] as int[]);
+removeAll(<thermalfoundation:material>, [ 512, 513, 514, 515, 771, 800, 801 ] as int[]);
 removeInRange(<thermalfoundation:rockwool>, 0, 15);
-removeAll(<thermalfoundation:upgrade>, [ 1, 2, 3, 33, 34, 35, 256 ]);
+removeAll(<thermalfoundation:upgrade>, [ 0, 1, 2, 3, 33, 34, 35, 256 ] as int[]);
 
 print("Done.");

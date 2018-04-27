@@ -229,7 +229,8 @@ data = {
         Deposit(diamond, "RIVER", Altitude.LAVA, Density.NORMAL),
         Deposit(diamond, "OCEAN", Altitude.LAVA, Density.NORMAL),
 
-        Deposit(tin, "FOREST", Altitude.BURIED, Density.TRACE),
+        Deposit(tin, "FOREST", Altitude.BURIED, Density.NORMAL),
+        Deposit(tin, "FOREST", Altitude.SURFACE, Density.TRACE),
         Deposit(tin, "PLAINS", Altitude.BURIED, Density.TRACE),
         Deposit(tin, "SWAMP", Altitude.BURIED, Density.TRACE),
 
