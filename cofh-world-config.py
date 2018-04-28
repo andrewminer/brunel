@@ -10,8 +10,6 @@ class Altitude(Enum):
     HILLS = (81, 128)
     MOUNTAINS = (128, 256)
 
-    GRAVEL = (54, 64)
-
     def __init__(self, min_height=0, max_height=256):
         self.min_height = min_height
         self.max_height = max_height
@@ -108,8 +106,6 @@ class Deposit(object):
                 "value": [ -1, 1 ]
             }
         }
-        if self.altitude is Altitude.GRAVEL:
-            result["generator"]["material"] = "gravel"
 
         return result
 
@@ -126,7 +122,6 @@ class GravelDeposit(Deposit):
     def as_json(self):
         result = super().as_json()
         result["generator"]["material"] = [ "gravel" ]
-        result["gen-fluid"] = "water"
         result["cluster-count"] *= 2
         result["min-height"] = 0
         result["max-height"] = 65

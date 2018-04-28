@@ -2,10 +2,10 @@
 
 Brunel uses a highly customized ore
 generation scheme. Instead of all ores
-appearing at different altitudes (almost
-all below ground), ores generate
-differently in various regions all
-around the world. These regions are
+appearing at different altitudes (no
+matter where you are in the world), ores
+generate differently in various regions
+all around the world. These regions are
 defined by biome type (e.g., forest,
 sandy, ocean, snowy, etc.) and altitude:
 
@@ -128,8 +128,10 @@ only deep underground.
 ![Lead Ore](item:immersiveengineering:ore@2)
 
 No proper use for Uranium has yet been
-discovered apart from being an intense
-natural heat source. Even being only
+discovered, although, in large enough
+amounts, the metals itself gets
+alarmingly hot... Even being only
 found deep in the Earth, it will lays
 waste to any plants and animals above
-it.
+it, and causes people living there to go
+mad...

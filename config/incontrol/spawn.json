@@ -1,5 +1,9 @@
 [
     {
+        "biome": 70,
+        "result": "default"
+    },
+    {
         "mob": "creeper",
 
         "maxlight": 7,
@@ -42,6 +46,17 @@
 
         "isnotcolliding": true,
         "structure": "temple",
+
+        "result": "allow"
+    },
+    {
+        "mob": "zombie_villager",
+        "armorhelmet": "minecraft:leather_helmet",
+
+        "biometype": "WASTELAND",
+        "isnotcolliding": true,
+        "minlight": 0,
+        "maxlight": 15,
 
         "result": "allow"
     },
