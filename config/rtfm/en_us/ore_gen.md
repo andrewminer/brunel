@@ -9,21 +9,21 @@ all around the world. These regions are
 defined by biome type (e.g., forest,
 sandy, ocean, snowy, etc.) and altitude:
 
-• lava: 0–12
-• deep: 12–48
-• buried: 48–64
-• surface: 64–80
-• hills: 80–128
-• mountains: 128–256
+* lava: 0–12
+* deep: 12–48
+* buried: 48–64
+* surface: 64–80
+* hills: 80–128
+* mountains: 128–256
 
 Within each region (i.e., each biome /
 altitude pairing), each type of ore may
 spawn with a different density:
 
-• none
-• trace
-• normal
-• dense
+* none
+* trace
+* normal
+* dense
 
 The following is a listing of the
 various ores you can expect to find, and
