@@ -52,6 +52,7 @@
   "movingworld": "1.12-6.342",
   "thermalfoundation": "2.3.11",
   "mcp": "9.42",
+  "journeymap": "1.12.2-5.5.2",
   "comforts": "1.1.0.3",
   "nex": "2.1.14.15",
   "sereneseasons": "1.1.2",
@@ -86,11 +87,9 @@
   "engineersdoors": "0.7.1",
   "com.elytradev.movingworld.common.asm.coremod": "",
   "mantle": "1.12-1.3.2.24",
-  "xaerominimap": "1.14",
   "gravestone": "1.10.1",
   "betterplacement": "1.0.0-1",
   "storagedrawers": "1.12-5.3.5",
-  "toughasnails": "3.1.0.101",
   "noendermanpickup": "1.2",
   "worldstripper": "1.5.1-1.12.2",
   "infinitylib": "1.12.2-1.12.0",
@@ -99,6 +98,5 @@
   "tickdynamic": "1.0.0",
   "parachutemod": "1.7.4",
   "betterfoliage": "2.1.10",
-  "forestry": "5.8.0.267",
-  "slurp": "0.3"
+  "forestry": "5.8.0.267"
 }

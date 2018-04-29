@@ -642,17 +642,7 @@
   {
     "name": "minecraft:ice",
     "meta": 0,
-    "length": 1,
-    "name0": "toughasnails:ice_cube",
-    "meta0": 0,
-    "0chance0": 48.975,
-    "1chance0": 50.225002,
-    "2chance0": 50.774998,
-    "3chance0": 49.149998,
-    "0pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}",
-    "1pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}",
-    "2pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}",
-    "3pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}"
+    "length": 0
   },
   {
     "name": "biomesoplenty:ash_block",
