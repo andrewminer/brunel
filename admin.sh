@@ -160,7 +160,6 @@ function command-start {
 
     PID=$(find-running-script-pid)
     if [[ "$PID" != "" ]]; then
-        echo "[$(date)] Already running script" >> server/logs/server.log
         exit 0
     fi
 

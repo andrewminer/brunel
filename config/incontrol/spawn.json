@@ -23,6 +23,7 @@
         "isnotcolliding": true,
         "mintime": 12000,
         "seesky": true,
+        "random": 0.25,
 
         "result": "allow"
     },
