@@ -5,6 +5,8 @@
 .mixin.out/
 crash-reports/
 fonts/
+installers
+installers/
 journeymap/data
 logs/
 options.txt

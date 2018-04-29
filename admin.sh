@@ -79,18 +79,20 @@ function usage {
 # Command Functions ###################################################################################################
 
 function command-installer {
-    mkdir -p installers
-    rm -rf installers/*.zip
+    rm -rf installers/*.zip 2>/dev/null
 
-    find . -name ".DS_Store" | xargs rm
-    pushd .. >/dev/null
-    zip -r9 "$SERVER_NAME/installers/$SERVER_NAME-$(date +'%Y-%m-%d-%H-%M').zip" \
-        $SERVER_NAME/config \
-        $SERVER_NAME/mods \
-        $SERVER_NAME/scripts \
-        $SERVER_NAME/*.txt \
-        $SERVER_NAME/forge-*-installer.jar
+    rm -rf installers/tmp
+    mkdir -p installers/tmp
+
+    REPO_DIR="$PWD"
+
+    pushd installers/tmp
+        git clone "$REPO_DIR" $SERVER_NAME
+        rm -rf $SERVER_NAME/.git
+        zip -r9 "../$SERVER_NAME-$(date +'%Y-%m-%d-%H-%M').zip" $SERVER_NAME
     popd >/dev/null
+
+    rm -rf installers/tmp
 }
 
 function command-backup {
