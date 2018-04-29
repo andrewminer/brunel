@@ -20,6 +20,7 @@
         "mob": "slime",
 
         "biometype": "SWAMP",
+        "block": "ore:grass",
         "isnotcolliding": true,
         "mintime": 12000,
         "seesky": true,
@@ -31,6 +32,7 @@
         "mob": "slime",
 
         "biometype": "SWAMP",
+        "block": "ore:grass",
         "isnotcolliding": true,
         "weather": "rain",
         "weather": "thunder",
