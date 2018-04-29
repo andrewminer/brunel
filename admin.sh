@@ -165,7 +165,6 @@ function command-start {
 
     PID=$(find-running-server-pid)
     if [[ "$PID" != "" ]]; then
-        echo "[$(date)] Already running server" >> server/logs/server.log
         exit 0
     fi
 

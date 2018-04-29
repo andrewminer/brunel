@@ -3,6 +3,7 @@
 .DS_Store
 .ReAuth.cfg
 .mixin.out/
+backups/
 crash-reports/
 fonts/
 installers
@@ -12,6 +13,7 @@ logs/
 options.txt
 realms_persistence.json
 saves/
+server/
+servers.dat
 usercache.json
 usernamecache.json
-servers.dat
