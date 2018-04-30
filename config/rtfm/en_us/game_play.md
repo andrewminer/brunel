@@ -1,4 +1,4 @@
-# Hunger
+## Hunger
 
 Hunger has been altered by [Spice of Life](https://minecraft.curseforge.com/projects/the-spice-of-life)
 so that eating the same foods repeatedly
@@ -9,46 +9,41 @@ want to make yourself a lunch bag as soon
 as you can:
 ![Lunch Bag](item:spiceoflife:lunchbag)
 
-# Thirst
+## Injuries
 
-With [Tough as Nails](https://minecraft.curseforge.com/projects/tough-as-nails) your character can
-die of thirst (almost). To start out, you
-can drink by right-clicking on any body
-of water, but this won't get you very
-far. Take a look at making a canteen as
-soon as possible!
-![Canteen](item:toughasnails:canteen)
+When you are attacked in Brunel, you take
+damage to specific parts of your body,
+thanks to the addition of the [First Aid](https://minecraft.curseforge.com/projects/first-aid)
+mod. Depending upon where you are
+injured, you may have to cope with
+various forms of illness until you heal.
+Careful, though... sufficient damage to
+the head or body is instantly fatal, even
+if you are otherwise unhurt!
+![Leather Cap](item:minecraft:leather_helmet)
 
-# Exposure
-
-The [Tough as Nails](https://minecraft.curseforge.com/projects/tough-as-nails) mod also makes it
-so that you can (really) die of exposure:
-either by being too hot or too cold. Your
-HUD now has a globe in the center which
-shows your body temperature. Collect some
-wool for a nice warm suit:
-![Wool Chestplate](item:toughasnails:wool_chestplate)
-
-# Healing
+## Healing
 
 Healing in Brunel works very much like in
 the real world: with rest and medical
 attention. The [First Aid](https://minecraft.curseforge.com/projects/first-aid) mod disables
 regeneration, and adds various ways to
 heal yourself. Try some bandages if you
-get hurt!
+get hurt, or just take a nap!
 ![Bandage](item:firstaid:bandage)
 
-# Dying
+## Dying
 
 If you do die, then the [Gravestone](https://minecraft.curseforge.com/projects/gravestone-mod) mod
 will plant a headstone just above where
-you died. By breaking the headstone, you
-can get back all the arms, armor, and
-loot you had with you at the time.
+you died, and [JourneyMap](https://minecraft.curseforge.com/projects/journeymap) will drop a
+waypoint guiding you back to it. By
+breaking the headstone, you can get back
+all the arms, armor, and loot you had
+with you at the time.
 ![Gravestone](item:gravestone:gravestone)
 
-# Light
+## Light
 
 Unlike in vanilla Minecraft, the dark
 places of Brunel are truely dark. You'll
@@ -58,15 +53,7 @@ the other hand, a full moon casts quite a
 bit of light!
 ![Torch](item:minecraft:torch)
 
-# Mob Spawning
-
-Dangerous creatures only spawn in the
-absolute blackness of underground caves
-in the overworld. All bets are off if you
-jump through any portals, though...
-![Mob Egg](item:minecraft:spawn_egg)
-
-# Sleeping
+## Sleeping
 
 Sleeping works mostly the same as with
 vanilla Minecraft, except that any one
@@ -75,3 +62,14 @@ whole server to sleep. If you don't want
 to reset your spawn location at the same
 time, check out the sleeping bag.
 ![Sleeping Bag](item:comforts:sleeping_bag@14)
+
+## Trading
+
+Players can trade with one another on the
+server by using the [Forestry](https://minecraft.curseforge.com/projects/forestry) Trade
+Station and Category. Just build and
+place a Trade station to post your
+trades, and open up the Catalogue to see
+what everyone else has posted.
+![Trade Station](item:forestry:trade_station)
+![Catalogue](item:forestry:catalogue)
