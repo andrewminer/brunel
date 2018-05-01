@@ -165,39 +165,6 @@
                 ]
             }
         },
-        "COAL-DEEP-MOUNTAIN": {
-            "enabled": true,
-            "generator": {
-                "block": "coal_ore",
-                "material": {
-                    "name": "stone",
-                    "metadata": -1
-                },
-                "type": "cluster",
-                "cluster-size": 8
-            },
-            "chunk-chance": 1,
-            "cluster-count": 20,
-            "distribution": "uniform",
-            "min-height": 13,
-            "max-height": 48,
-            "biome": {
-                "restriction": "whitelist",
-                "value": {
-                    "type": "dictionary",
-                    "entry": [
-                        "MOUNTAIN"
-                    ]
-                }
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            }
-        },
         "COAL-BURIED-MOUNTAIN": {
             "enabled": true,
             "generator": {
@@ -207,10 +174,10 @@
                     "metadata": -1
                 },
                 "type": "cluster",
-                "cluster-size": 8
+                "cluster-size": 4
             },
             "chunk-chance": 1,
-            "cluster-count": 8,
+            "cluster-count": 11,
             "distribution": "uniform",
             "min-height": 49,
             "max-height": 64,
@@ -240,10 +207,10 @@
                     "metadata": -1
                 },
                 "type": "cluster",
-                "cluster-size": 12
+                "cluster-size": 8
             },
             "chunk-chance": 1,
-            "cluster-count": 11,
+            "cluster-count": 8,
             "distribution": "uniform",
             "min-height": 65,
             "max-height": 80,
@@ -273,10 +240,10 @@
                     "metadata": -1
                 },
                 "type": "cluster",
-                "cluster-size": 8
+                "cluster-size": 4
             },
             "chunk-chance": 1,
-            "cluster-count": 26,
+            "cluster-count": 35,
             "distribution": "uniform",
             "min-height": 81,
             "max-height": 128,
@@ -2764,7 +2731,76 @@
                 ]
             }
         },
+        "LAPIS-BURIED-RIVER": {
+            "enabled": true,
+            "generator": {
+                "block": "lapis_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "RIVER"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
         "TIN-BURIED-FOREST": {
+            "enabled": true,
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 1
+                },
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 8,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "FOREST"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "TIN-SURFACE-FOREST": {
             "enabled": true,
             "generator": {
                 "block": {
@@ -2781,8 +2817,8 @@
             "chunk-chance": 1,
             "cluster-count": 11,
             "distribution": "uniform",
-            "min-height": 49,
-            "max-height": 64,
+            "min-height": 65,
+            "max-height": 80,
             "biome": {
                 "restriction": "whitelist",
                 "value": {
@@ -3410,7 +3446,7 @@
                     "metadata": -1
                 },
                 "type": "cluster",
-                "cluster-size": 12
+                "cluster-size": 4
             },
             "chunk-chance": 1,
             "cluster-count": 26,
@@ -3454,10 +3490,10 @@
                     "metadata": -1
                 },
                 "type": "cluster",
-                "cluster-size": 8
+                "cluster-size": 4
             },
             "chunk-chance": 1,
-            "cluster-count": 8,
+            "cluster-count": 11,
             "distribution": "uniform",
             "min-height": 49,
             "max-height": 64,
@@ -3498,10 +3534,10 @@
                     "metadata": -1
                 },
                 "type": "cluster",
-                "cluster-size": 4
+                "cluster-size": 8
             },
             "chunk-chance": 1,
-            "cluster-count": 11,
+            "cluster-count": 8,
             "distribution": "uniform",
             "min-height": 65,
             "max-height": 80,
@@ -3542,10 +3578,10 @@
                     "metadata": -1
                 },
                 "type": "cluster",
-                "cluster-size": 8
+                "cluster-size": 12
             },
             "chunk-chance": 1,
-            "cluster-count": 26,
+            "cluster-count": 35,
             "distribution": "uniform",
             "min-height": 81,
             "max-height": 128,
@@ -3586,10 +3622,10 @@
                     "metadata": -1
                 },
                 "type": "cluster",
-                "cluster-size": 4
+                "cluster-size": 8
             },
             "chunk-chance": 1,
-            "cluster-count": 96,
+            "cluster-count": 72,
             "distribution": "uniform",
             "min-height": 128,
             "max-height": 256,
@@ -3599,6 +3635,94 @@
                     "type": "dictionary",
                     "entry": [
                         "SNOWY"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "URANIUM-LAVA-OCEAN": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "immersiveengineering:ore",
+                        "metadata": 5,
+                        "weight": 80
+                    },
+                    {
+                        "name": "immersiveengineering:ore",
+                        "metadata": 2,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 7,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "OCEAN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "URANIUM-DEEP-OCEAN": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "immersiveengineering:ore",
+                        "metadata": 5,
+                        "weight": 80
+                    },
+                    {
+                        "name": "immersiveengineering:ore",
+                        "metadata": 2,
+                        "weight": 20
+                    }
+                ],
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 20,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "OCEAN"
                     ]
                 }
             },
@@ -3772,8 +3896,39 @@
                     -1,
                     1
                 ]
+            }
+        },
+        "GOLD-BEACH-GRAVEL": {
+            "enabled": true,
+            "generator": {
+                "block": "gravelores:gold_gravel_ore",
+                "material": [
+                    "gravel"
+                ],
+                "type": "cluster",
+                "cluster-size": 4
             },
-            "gen-fluid": "water"
+            "chunk-chance": 1,
+            "cluster-count": 22,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 65,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "BEACH"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
         },
         "IRON-RIVER-GRAVEL": {
             "enabled": true,
@@ -3805,8 +3960,7 @@
                     -1,
                     1
                 ]
-            },
-            "gen-fluid": "water"
+            }
         },
         "GOLD-RIVER-GRAVEL": {
             "enabled": true,
@@ -3838,8 +3992,7 @@
                     -1,
                     1
                 ]
-            },
-            "gen-fluid": "water"
+            }
         },
         "LAPIS-RIVER-GRAVEL": {
             "enabled": true,
@@ -3849,10 +4002,10 @@
                     "gravel"
                 ],
                 "type": "cluster",
-                "cluster-size": 8
+                "cluster-size": 12
             },
             "chunk-chance": 1,
-            "cluster-count": 16,
+            "cluster-count": 22,
             "distribution": "uniform",
             "min-height": 0,
             "max-height": 65,
@@ -3871,8 +4024,7 @@
                     -1,
                     1
                 ]
-            },
-            "gen-fluid": "water"
+            }
         },
         "TIN-RIVER-GRAVEL": {
             "enabled": true,
@@ -3904,8 +4056,7 @@
                     -1,
                     1
                 ]
-            },
-            "gen-fluid": "water"
+            }
         },
         "IRON-OCEAN-GRAVEL": {
             "enabled": true,
@@ -3937,8 +4088,7 @@
                     -1,
                     1
                 ]
-            },
-            "gen-fluid": "water"
+            }
         },
         "GOLD-OCEAN-GRAVEL": {
             "enabled": true,
@@ -3970,8 +4120,7 @@
                     -1,
                     1
                 ]
-            },
-            "gen-fluid": "water"
+            }
         },
         "LAPIS-OCEAN-GRAVEL": {
             "enabled": true,
@@ -3981,10 +4130,10 @@
                     "gravel"
                 ],
                 "type": "cluster",
-                "cluster-size": 4
+                "cluster-size": 8
             },
             "chunk-chance": 1,
-            "cluster-count": 22,
+            "cluster-count": 16,
             "distribution": "uniform",
             "min-height": 0,
             "max-height": 65,
@@ -4003,8 +4152,7 @@
                     -1,
                     1
                 ]
-            },
-            "gen-fluid": "water"
+            }
         },
         "TIN-OCEAN-GRAVEL": {
             "enabled": true,
@@ -4014,7 +4162,7 @@
                     "gravel"
                 ],
                 "type": "cluster",
-                "cluster-size": 4
+                "cluster-size": 12
             },
             "chunk-chance": 1,
             "cluster-count": 22,
@@ -4036,8 +4184,7 @@
                     -1,
                     1
                 ]
-            },
-            "gen-fluid": "water"
+            }
         }
     }
 }

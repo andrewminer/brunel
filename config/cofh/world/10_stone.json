@@ -18,6 +18,7 @@
             "biome": {
                 "restriction": "whitelist",
                 "value": [
+                    { "type": "dictionary", "entry": [ "BEACH" ] },
                     { "type": "dictionary", "entry": [ "OCEAN" ] },
                     { "type": "dictionary", "entry": [ "RIVER" ] }
                 ]

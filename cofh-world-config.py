@@ -153,10 +153,9 @@ data = {
         Deposit(coal, "PLAINS", Altitude.DEEP, Density.DENSE),
         Deposit(coal, "PLAINS", Altitude.BURIED, Density.NORMAL),
         Deposit(coal, "PLAINS", Altitude.SURFACE, Density.TRACE),
-        Deposit(coal, "MOUNTAIN", Altitude.DEEP, Density.NORMAL),
-        Deposit(coal, "MOUNTAIN", Altitude.BURIED, Density.NORMAL),
-        Deposit(coal, "MOUNTAIN", Altitude.SURFACE, Density.DENSE),
-        Deposit(coal, "MOUNTAIN", Altitude.HILLS, Density.NORMAL),
+        Deposit(coal, "MOUNTAIN", Altitude.BURIED, Density.TRACE),
+        Deposit(coal, "MOUNTAIN", Altitude.SURFACE, Density.NORMAL),
+        Deposit(coal, "MOUNTAIN", Altitude.HILLS, Density.TRACE),
         Deposit(coal, "MOUNTAIN", Altitude.MOUNTAINS, Density.TRACE),
         Deposit(coal, "HILLS", Altitude.DEEP, Density.NORMAL),
         Deposit(coal, "HILLS", Altitude.BURIED, Density.NORMAL),
@@ -224,6 +223,8 @@ data = {
         Deposit(diamond, "RIVER", Altitude.LAVA, Density.NORMAL),
         Deposit(diamond, "OCEAN", Altitude.LAVA, Density.NORMAL),
 
+        Deposit(lapis, "RIVER", Altitude.BURIED, Density.DENSE),
+
         Deposit(tin, "FOREST", Altitude.BURIED, Density.NORMAL),
         Deposit(tin, "FOREST", Altitude.SURFACE, Density.TRACE),
         Deposit(tin, "PLAINS", Altitude.BURIED, Density.TRACE),
@@ -247,11 +248,11 @@ data = {
         Deposit(aluminum, "SANDY", Altitude.SURFACE, Density.TRACE),
 
         Deposit(lead, "SNOWY", Altitude.LAVA, Density.TRACE),
-        Deposit(lead, "SNOWY", Altitude.DEEP, Density.DENSE),
-        Deposit(lead, "SNOWY", Altitude.BURIED, Density.NORMAL),
-        Deposit(lead, "SNOWY", Altitude.SURFACE, Density.TRACE),
-        Deposit(lead, "SNOWY", Altitude.HILLS, Density.NORMAL),
-        Deposit(lead, "SNOWY", Altitude.MOUNTAINS, Density.TRACE),
+        Deposit(lead, "SNOWY", Altitude.DEEP, Density.TRACE),
+        Deposit(lead, "SNOWY", Altitude.BURIED, Density.TRACE),
+        Deposit(lead, "SNOWY", Altitude.SURFACE, Density.NORMAL),
+        Deposit(lead, "SNOWY", Altitude.HILLS, Density.DENSE),
+        Deposit(lead, "SNOWY", Altitude.MOUNTAINS, Density.NORMAL),
 
         Deposit(uranium, "OCEAN", Altitude.LAVA, Density.NORMAL),
         Deposit(uranium, "OCEAN", Altitude.DEEP, Density.NORMAL),
@@ -260,16 +261,17 @@ data = {
         Deposit(uranium, "WASTELAND", Altitude.BURIED, Density.TRACE),
 
         GravelDeposit(tin_gravel, "BEACH", Density.NORMAL),
+        GravelDeposit(gold_gravel, "BEACH", Density.TRACE),
 
         GravelDeposit(iron_gravel, "RIVER", Density.TRACE),
         GravelDeposit(gold_gravel, "RIVER", Density.TRACE),
-        GravelDeposit(lapis_gravel, "RIVER", Density.NORMAL),
+        GravelDeposit(lapis_gravel, "RIVER", Density.DENSE),
         GravelDeposit(tin_gravel, "RIVER", Density.NORMAL),
 
         GravelDeposit(iron_gravel, "OCEAN", Density.TRACE),
         GravelDeposit(gold_gravel, "OCEAN", Density.TRACE),
-        GravelDeposit(lapis_gravel, "OCEAN", Density.TRACE),
-        GravelDeposit(tin_gravel, "OCEAN", Density.NORMAL),
+        GravelDeposit(lapis_gravel, "OCEAN", Density.NORMAL),
+        GravelDeposit(tin_gravel, "OCEAN", Density.DENSE),
     ]}
 }
 
