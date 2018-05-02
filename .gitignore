@@ -13,6 +13,7 @@ logs/
 options.txt
 realms_persistence.json
 saves/
+screenshots/
 server/
 servers.dat
 usercache.json

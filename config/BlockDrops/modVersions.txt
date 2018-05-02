@@ -49,6 +49,7 @@
   "dynamictreesbop": "1.0.0",
   "jei": "4.8.6.161",
   "platforms": "1.4.5",
+  "bibliocraft": "2.4.3",
   "movingworld": "1.12-6.342",
   "thermalfoundation": "2.3.11",
   "mcp": "9.42",
