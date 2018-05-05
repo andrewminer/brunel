@@ -16,6 +16,7 @@ function removeInRange(itemStack as IItemStack, start as int, end as int) {
 
 print("Removing banned items...");
 
+removeAndHide(<agricraft:debugger>);
 removeAndHide(<agricraft:peripheral>);
 removeAndHide(<biomesoplenty:biome_finder>);
 removeAndHide(<dynamictrees:staff>);
@@ -38,7 +39,6 @@ removeAndHide(<minecraft:structure_void>);
 removeAndHide(<minecraft:totem_of_undying>);
 removeAndHide(<thermalfoundation:glass>);
 removeAndHide(<thermalfoundation:meter>);
-removeAndHide(<thermalfoundation:rockwool>);
 removeAndHide(<thermalfoundation:security>);
 removeAndHide(<twilightforest:ore_meter>);
 
@@ -46,6 +46,7 @@ removeAll(<thermalfoundation:bait>, [ 0, 1, 2 ] as int[]);
 removeAll(<thermalfoundation:coin>, [ 0, 65, 67, 68, 69, 70, 71, 72, 96, 97, 98, 99, 100, 101, 102, 103 ] as int[]);
 removeAll(<thermalfoundation:material>, [ 512, 513, 514, 515, 771, 800, 801 ] as int[]);
 removeInRange(<thermalfoundation:rockwool>, 0, 15);
+removeInRange(<davincisvessels:balloon>, 0, 15);
 removeAll(<thermalfoundation:upgrade>, [ 0, 1, 2, 3, 33, 34, 35, 256 ] as int[]);
 
 print("Done.");
