@@ -4,6 +4,7 @@
 .ReAuth.cfg
 .mixin.out/
 backups/
+config/jei/worldSettings.cfg
 crash-reports/
 fonts/
 installers
