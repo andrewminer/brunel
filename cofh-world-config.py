@@ -66,17 +66,19 @@ class Vein(object):
 
 class Deposit(object):
 
-    def __init__(self, vein=None, biome_type=None, altitude=Altitude.SURFACE, density=Density.NORMAL):
+    def __init__(self, vein=None, biome_type=None, altitude=Altitude.SURFACE, density=Density.NORMAL, retrogen=False):
         self.vein = vein
         self.altitude = altitude
         self.biome_type = biome_type
         self.density = density
+        self.retrogen = retrogen
 
         self.material = Vein("stone", Ore("stone", -1))
 
     @property
     def name(self):
-        return f"{self.vein.name.upper()}-{self.altitude.name}-{self.biome_type}"
+        retrogen = f"-{self.retrogen}" if self.retrogen is not None else ""
+        return f"{self.vein.name.upper()}-{self.altitude.name}-{self.biome_type}{retrogen}"
 
     def as_json(self):
         result = {
@@ -106,6 +108,9 @@ class Deposit(object):
                 "value": [ -1, 1 ]
             }
         }
+
+        if self.retrogen is not None:
+            result["retrogen"] = True
 
         return result
 
@@ -140,6 +145,7 @@ aluminum = Vein("aluminum", Ore("thermalfoundation:ore", 4))
 lead = Vein("lead", Ore("thermalfoundation:ore", 3, weight=80), Ore("thermalfoundation:ore", 2, weight=20))
 lapis = Vein("lapis", Ore("lapis_ore"))
 uranium = Vein("uranium", Ore("immersiveengineering:ore", 5, weight=80), Ore("immersiveengineering:ore", 2, weight=20))
+redstone = Vein("redstone", Ore("redstone_ore"))
 
 tin_gravel = Vein("tin", Ore("gravelores:tin_gravel_ore"))
 lapis_gravel = Vein("lapis", Ore("gravelores:lapis_gravel_ore"))
@@ -238,6 +244,12 @@ data = {
         Deposit(copper, "MOUNTAIN", Altitude.BURIED, Density.TRACE),
         Deposit(copper, "HILLS", Altitude.DEEP, Density.TRACE),
         Deposit(copper, "RIVER", Altitude.DEEP, Density.TRACE),
+
+        Deposit(redstone, "FOREST", Altitude.LAVA, Density.DENSE, retrogen="v2"),
+        Deposit(redstone, "FOREST", Altitude.DEEP, Density.NORMAL, retrogen="v2"),
+        Deposit(redstone, "FOREST", Altitude.BURIED, Density.TRACE, retrogen="v2"),
+        Deposit(redstone, "MOUNTAIN", Altitude.LAVA, Density.TRACE, retrogen="v2"),
+        Deposit(redstone, "MOUNTAIN", Altitude.DEEP, Density.TRACE, retrogen="v2"),
 
         Deposit(apatite, "PLAINS", Altitude.BURIED, Density.NORMAL),
         Deposit(apatite, "PLAINS", Altitude.SURFACE, Density.TRACE),

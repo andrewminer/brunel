@@ -1,6 +1,6 @@
 {
     "populate": {
-        "COAL-DEEP-MESA": {
+        "COAL-DEEP-MESA-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -31,9 +31,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-DEEP-FOREST": {
+        "COAL-DEEP-FOREST-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -64,9 +65,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-DEEP-PLAINS": {
+        "COAL-DEEP-PLAINS-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -97,9 +99,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-BURIED-PLAINS": {
+        "COAL-BURIED-PLAINS-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -130,9 +133,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-SURFACE-PLAINS": {
+        "COAL-SURFACE-PLAINS-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -163,9 +167,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-BURIED-MOUNTAIN": {
+        "COAL-BURIED-MOUNTAIN-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -196,9 +201,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-SURFACE-MOUNTAIN": {
+        "COAL-SURFACE-MOUNTAIN-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -229,9 +235,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-HILLS-MOUNTAIN": {
+        "COAL-HILLS-MOUNTAIN-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -262,9 +269,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-MOUNTAINS-MOUNTAIN": {
+        "COAL-MOUNTAINS-MOUNTAIN-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -295,9 +303,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-DEEP-HILLS": {
+        "COAL-DEEP-HILLS-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -328,9 +337,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-BURIED-HILLS": {
+        "COAL-BURIED-HILLS-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -361,9 +371,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-SURFACE-HILLS": {
+        "COAL-SURFACE-HILLS-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -394,9 +405,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-DEEP-SWAMP": {
+        "COAL-DEEP-SWAMP-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -427,9 +439,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-BURIED-SWAMP": {
+        "COAL-BURIED-SWAMP-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -460,9 +473,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-DEEP-SANDY": {
+        "COAL-DEEP-SANDY-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -493,9 +507,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-DEEP-SNOWY": {
+        "COAL-DEEP-SNOWY-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -526,9 +541,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-DEEP-WASTELAND": {
+        "COAL-DEEP-WASTELAND-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -559,9 +575,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-DEEP-BEACH": {
+        "COAL-DEEP-BEACH-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -592,9 +609,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-DEEP-MUSHROOM": {
+        "COAL-DEEP-MUSHROOM-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -625,9 +643,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-BURIED-MUSHROOM": {
+        "COAL-BURIED-MUSHROOM-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -658,9 +677,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-DEEP-RIVER": {
+        "COAL-DEEP-RIVER-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -691,9 +711,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COAL-DEEP-OCEAN": {
+        "COAL-DEEP-OCEAN-False": {
             "enabled": true,
             "generator": {
                 "block": "coal_ore",
@@ -724,9 +745,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-DEEP-MESA": {
+        "IRON-DEEP-MESA-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -767,9 +789,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-BURIED-MESA": {
+        "IRON-BURIED-MESA-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -810,9 +833,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-DEEP-FOREST": {
+        "IRON-DEEP-FOREST-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -853,9 +877,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-BURIED-FOREST": {
+        "IRON-BURIED-FOREST-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -896,9 +921,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-DEEP-PLAINS": {
+        "IRON-DEEP-PLAINS-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -939,9 +965,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-BURIED-PLAINS": {
+        "IRON-BURIED-PLAINS-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -982,9 +1009,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-LAVA-MOUNTAIN": {
+        "IRON-LAVA-MOUNTAIN-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1025,9 +1053,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-DEEP-MOUNTAIN": {
+        "IRON-DEEP-MOUNTAIN-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1068,9 +1097,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-BURIED-MOUNTAIN": {
+        "IRON-BURIED-MOUNTAIN-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1111,9 +1141,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-SURFACE-MOUNTAIN": {
+        "IRON-SURFACE-MOUNTAIN-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1154,9 +1185,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-HILLS-MOUNTAIN": {
+        "IRON-HILLS-MOUNTAIN-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1197,9 +1229,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-MOUNTAINS-MOUNTAIN": {
+        "IRON-MOUNTAINS-MOUNTAIN-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1240,9 +1273,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-LAVA-HILLS": {
+        "IRON-LAVA-HILLS-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1283,9 +1317,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-DEEP-HILLS": {
+        "IRON-DEEP-HILLS-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1326,9 +1361,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-BURIED-HILLS": {
+        "IRON-BURIED-HILLS-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1369,9 +1405,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-SURFACE-HILLS": {
+        "IRON-SURFACE-HILLS-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1412,9 +1449,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-HILLS-HILLS": {
+        "IRON-HILLS-HILLS-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1455,9 +1493,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-DEEP-SWAMP": {
+        "IRON-DEEP-SWAMP-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1498,9 +1537,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-DEEP-SANDY": {
+        "IRON-DEEP-SANDY-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1541,9 +1581,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-BURIED-SANDY": {
+        "IRON-BURIED-SANDY-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1584,9 +1625,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-DEEP-SNOWY": {
+        "IRON-DEEP-SNOWY-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1627,9 +1669,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-BURIED-SNOWY": {
+        "IRON-BURIED-SNOWY-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1670,9 +1713,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-DEEP-WASTELAND": {
+        "IRON-DEEP-WASTELAND-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1713,9 +1757,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-BURIED-WASTELAND": {
+        "IRON-BURIED-WASTELAND-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1756,9 +1801,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-DEEP-BEACH": {
+        "IRON-DEEP-BEACH-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1799,9 +1845,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-BURIED-BEACH": {
+        "IRON-BURIED-BEACH-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1842,9 +1889,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-DEEP-RIVER": {
+        "IRON-DEEP-RIVER-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1885,9 +1933,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "IRON-DEEP-OCEAN": {
+        "IRON-DEEP-OCEAN-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -1928,9 +1977,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "GOLD-DEEP-MESA": {
+        "GOLD-DEEP-MESA-False": {
             "enabled": true,
             "generator": {
                 "block": "gold_ore",
@@ -1961,9 +2011,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "GOLD-BURIED-MESA": {
+        "GOLD-BURIED-MESA-False": {
             "enabled": true,
             "generator": {
                 "block": "gold_ore",
@@ -1994,9 +2045,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "GOLD-SURFACE-MESA": {
+        "GOLD-SURFACE-MESA-False": {
             "enabled": true,
             "generator": {
                 "block": "gold_ore",
@@ -2027,9 +2079,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "GOLD-HILLS-MESA": {
+        "GOLD-HILLS-MESA-False": {
             "enabled": true,
             "generator": {
                 "block": "gold_ore",
@@ -2060,9 +2113,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "GOLD-LAVA-SANDY": {
+        "GOLD-LAVA-SANDY-False": {
             "enabled": true,
             "generator": {
                 "block": "gold_ore",
@@ -2093,9 +2147,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "GOLD-DEEP-SANDY": {
+        "GOLD-DEEP-SANDY-False": {
             "enabled": true,
             "generator": {
                 "block": "gold_ore",
@@ -2126,9 +2181,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "GOLD-BURIED-SANDY": {
+        "GOLD-BURIED-SANDY-False": {
             "enabled": true,
             "generator": {
                 "block": "gold_ore",
@@ -2159,9 +2215,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "GOLD-DEEP-WASTELAND": {
+        "GOLD-DEEP-WASTELAND-False": {
             "enabled": true,
             "generator": {
                 "block": "gold_ore",
@@ -2192,9 +2249,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "GOLD-BURIED-WASTELAND": {
+        "GOLD-BURIED-WASTELAND-False": {
             "enabled": true,
             "generator": {
                 "block": "gold_ore",
@@ -2225,9 +2283,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "DIAMOND-LAVA-MESA": {
+        "DIAMOND-LAVA-MESA-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2267,9 +2326,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "DIAMOND-LAVA-FOREST": {
+        "DIAMOND-LAVA-FOREST-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2309,9 +2369,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "DIAMOND-LAVA-PLAINS": {
+        "DIAMOND-LAVA-PLAINS-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2351,9 +2412,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "DIAMOND-LAVA-MOUNTAIN": {
+        "DIAMOND-LAVA-MOUNTAIN-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2393,9 +2455,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "DIAMOND-LAVA-HILLS": {
+        "DIAMOND-LAVA-HILLS-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2435,9 +2498,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "DIAMOND-LAVA-SWAMP": {
+        "DIAMOND-LAVA-SWAMP-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2477,9 +2541,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "DIAMOND-LAVA-SANDY": {
+        "DIAMOND-LAVA-SANDY-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2519,9 +2584,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "DIAMOND-LAVA-SNOWY": {
+        "DIAMOND-LAVA-SNOWY-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2561,9 +2627,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "DIAMOND-LAVA-WASTELAND": {
+        "DIAMOND-LAVA-WASTELAND-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2603,9 +2670,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "DIAMOND-LAVA-BEACH": {
+        "DIAMOND-LAVA-BEACH-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2645,9 +2713,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "DIAMOND-LAVA-RIVER": {
+        "DIAMOND-LAVA-RIVER-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2687,9 +2756,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "DIAMOND-LAVA-OCEAN": {
+        "DIAMOND-LAVA-OCEAN-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2729,9 +2799,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "LAPIS-BURIED-RIVER": {
+        "LAPIS-BURIED-RIVER-False": {
             "enabled": true,
             "generator": {
                 "block": "lapis_ore",
@@ -2762,9 +2833,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "TIN-BURIED-FOREST": {
+        "TIN-BURIED-FOREST-False": {
             "enabled": true,
             "generator": {
                 "block": {
@@ -2798,9 +2870,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "TIN-SURFACE-FOREST": {
+        "TIN-SURFACE-FOREST-False": {
             "enabled": true,
             "generator": {
                 "block": {
@@ -2834,9 +2907,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "TIN-BURIED-PLAINS": {
+        "TIN-BURIED-PLAINS-False": {
             "enabled": true,
             "generator": {
                 "block": {
@@ -2870,9 +2944,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "TIN-BURIED-SWAMP": {
+        "TIN-BURIED-SWAMP-False": {
             "enabled": true,
             "generator": {
                 "block": {
@@ -2906,9 +2981,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COPPER-LAVA-FOREST": {
+        "COPPER-LAVA-FOREST-False": {
             "enabled": true,
             "generator": {
                 "block": "thermalfoundation:ore",
@@ -2939,9 +3015,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COPPER-DEEP-FOREST": {
+        "COPPER-DEEP-FOREST-False": {
             "enabled": true,
             "generator": {
                 "block": "thermalfoundation:ore",
@@ -2972,9 +3049,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COPPER-BURIED-FOREST": {
+        "COPPER-BURIED-FOREST-False": {
             "enabled": true,
             "generator": {
                 "block": "thermalfoundation:ore",
@@ -3005,9 +3083,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COPPER-SURFACE-FOREST": {
+        "COPPER-SURFACE-FOREST-False": {
             "enabled": true,
             "generator": {
                 "block": "thermalfoundation:ore",
@@ -3038,9 +3117,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COPPER-DEEP-MOUNTAIN": {
+        "COPPER-DEEP-MOUNTAIN-False": {
             "enabled": true,
             "generator": {
                 "block": "thermalfoundation:ore",
@@ -3071,9 +3151,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COPPER-BURIED-MOUNTAIN": {
+        "COPPER-BURIED-MOUNTAIN-False": {
             "enabled": true,
             "generator": {
                 "block": "thermalfoundation:ore",
@@ -3104,9 +3185,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COPPER-DEEP-HILLS": {
+        "COPPER-DEEP-HILLS-False": {
             "enabled": true,
             "generator": {
                 "block": "thermalfoundation:ore",
@@ -3137,9 +3219,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "COPPER-DEEP-RIVER": {
+        "COPPER-DEEP-RIVER-False": {
             "enabled": true,
             "generator": {
                 "block": "thermalfoundation:ore",
@@ -3170,9 +3253,180 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "APATITE-BURIED-PLAINS": {
+        "REDSTONE-LAVA-FOREST-v2": {
+            "enabled": true,
+            "generator": {
+                "block": "redstone_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 12
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "FOREST"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "retrogen": true
+        },
+        "REDSTONE-DEEP-FOREST-v2": {
+            "enabled": true,
+            "generator": {
+                "block": "redstone_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 8
+            },
+            "chunk-chance": 1,
+            "cluster-count": 20,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "FOREST"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "retrogen": true
+        },
+        "REDSTONE-BURIED-FOREST-v2": {
+            "enabled": true,
+            "generator": {
+                "block": "redstone_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 11,
+            "distribution": "uniform",
+            "min-height": 49,
+            "max-height": 64,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "FOREST"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "retrogen": true
+        },
+        "REDSTONE-LAVA-MOUNTAIN-v2": {
+            "enabled": true,
+            "generator": {
+                "block": "redstone_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 9,
+            "distribution": "uniform",
+            "min-height": 0,
+            "max-height": 12,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "retrogen": true
+        },
+        "REDSTONE-DEEP-MOUNTAIN-v2": {
+            "enabled": true,
+            "generator": {
+                "block": "redstone_ore",
+                "material": {
+                    "name": "stone",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 26,
+            "distribution": "uniform",
+            "min-height": 13,
+            "max-height": 48,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "dictionary",
+                    "entry": [
+                        "MOUNTAIN"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "retrogen": true
+        },
+        "APATITE-BURIED-PLAINS-False": {
             "enabled": true,
             "generator": {
                 "block": "forestry:resources",
@@ -3203,9 +3457,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "APATITE-SURFACE-PLAINS": {
+        "APATITE-SURFACE-PLAINS-False": {
             "enabled": true,
             "generator": {
                 "block": "forestry:resources",
@@ -3236,9 +3491,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "ALUMINUM-LAVA-SANDY": {
+        "ALUMINUM-LAVA-SANDY-False": {
             "enabled": true,
             "generator": {
                 "block": {
@@ -3272,9 +3528,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "ALUMINUM-DEEP-SANDY": {
+        "ALUMINUM-DEEP-SANDY-False": {
             "enabled": true,
             "generator": {
                 "block": {
@@ -3308,9 +3565,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "ALUMINUM-BURIED-SANDY": {
+        "ALUMINUM-BURIED-SANDY-False": {
             "enabled": true,
             "generator": {
                 "block": {
@@ -3344,9 +3602,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "ALUMINUM-SURFACE-SANDY": {
+        "ALUMINUM-SURFACE-SANDY-False": {
             "enabled": true,
             "generator": {
                 "block": {
@@ -3380,9 +3639,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "LEAD-LAVA-SNOWY": {
+        "LEAD-LAVA-SNOWY-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -3424,9 +3684,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "LEAD-DEEP-SNOWY": {
+        "LEAD-DEEP-SNOWY-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -3468,9 +3729,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "LEAD-BURIED-SNOWY": {
+        "LEAD-BURIED-SNOWY-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -3512,9 +3774,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "LEAD-SURFACE-SNOWY": {
+        "LEAD-SURFACE-SNOWY-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -3556,9 +3819,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "LEAD-HILLS-SNOWY": {
+        "LEAD-HILLS-SNOWY-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -3600,9 +3864,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "LEAD-MOUNTAINS-SNOWY": {
+        "LEAD-MOUNTAINS-SNOWY-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -3644,9 +3909,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "URANIUM-LAVA-OCEAN": {
+        "URANIUM-LAVA-OCEAN-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -3688,9 +3954,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "URANIUM-DEEP-OCEAN": {
+        "URANIUM-DEEP-OCEAN-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -3732,9 +3999,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "URANIUM-LAVA-WASTELAND": {
+        "URANIUM-LAVA-WASTELAND-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -3776,9 +4044,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "URANIUM-DEEP-WASTELAND": {
+        "URANIUM-DEEP-WASTELAND-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -3820,9 +4089,10 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
-        "URANIUM-BURIED-WASTELAND": {
+        "URANIUM-BURIED-WASTELAND-False": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -3864,7 +4134,8 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
         "TIN-BEACH-GRAVEL": {
             "enabled": true,
@@ -3896,7 +4167,8 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
         "GOLD-BEACH-GRAVEL": {
             "enabled": true,
@@ -3928,7 +4200,8 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
         "IRON-RIVER-GRAVEL": {
             "enabled": true,
@@ -3960,7 +4233,8 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
         "GOLD-RIVER-GRAVEL": {
             "enabled": true,
@@ -3992,7 +4266,8 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
         "LAPIS-RIVER-GRAVEL": {
             "enabled": true,
@@ -4024,7 +4299,8 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
         "TIN-RIVER-GRAVEL": {
             "enabled": true,
@@ -4056,7 +4332,8 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
         "IRON-OCEAN-GRAVEL": {
             "enabled": true,
@@ -4088,7 +4365,8 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
         "GOLD-OCEAN-GRAVEL": {
             "enabled": true,
@@ -4120,7 +4398,8 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
         "LAPIS-OCEAN-GRAVEL": {
             "enabled": true,
@@ -4152,7 +4431,8 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         },
         "TIN-OCEAN-GRAVEL": {
             "enabled": true,
@@ -4184,7 +4464,8 @@
                     -1,
                     1
                 ]
-            }
+            },
+            "retrogen": true
         }
     }
 }
