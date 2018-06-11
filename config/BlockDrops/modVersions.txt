@@ -98,7 +98,6 @@
   "infinitylib": "1.12.2-1.12.0",
   "tinkersjei": "1.0",
   "spiceoflife": "1.3.11",
-  "tickdynamic": "1.0.0",
   "chiselsandbits": "14.16",
   "parachutemod": "1.7.4",
   "betterfoliage": "2.1.10",
