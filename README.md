@@ -68,6 +68,13 @@ some basic ground rules:
 * Don't tear up the landscape without
   making something better out of it.
 
+## Technological Considerations
+
+This modpack can be pretty taxing on your computer what with having a good number
+of mods, and some of them pretty demanding.  You should make sure to give your
+client at least 4GB of RAM for things to work well, and you'll want to adjust your
+video settings if you don't have a pretty new video card.
+
 ## Credits
 
 This modpack would not exist but for the
