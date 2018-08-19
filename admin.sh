@@ -185,14 +185,14 @@ function command-start {
         SERVER_JAR=$(ls forge*universal.jar | tail -n1)
 
         tail -n 0 -F server.stdin \
-            | java -Xmx5G -Xms5G -Xmn768m -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseNUMA \
+            | java -Xmx6G -Xms3G -Xmn768m -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseNUMA \
                 -XX:+CMSParallelRemarkEnabled -XX:MaxTenuringThreshold=15 -XX:MaxGCPauseMillis=30 \
                 -XX:GCPauseIntervalMillis=150 -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:+UseBiasedLocking \
                 -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 \
                 -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+AggressiveOpts \
                 -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:SoftRefLRUPolicyMSPerMB=10000 \
                 -XX:ParallelGCThreads=10 \
-                -jar $SERVER_JAR $SERVER_NAME \
+                -jar $SERVER_JAR nogui $SERVER_NAME \
             >> logs/server.log 2>&1 &
         disown
 
