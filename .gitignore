@@ -12,6 +12,7 @@ installers
 installers/
 journeymap/data
 logs/
+minecraft_server.*jar
 options.txt
 realms_persistence.json
 saves/
