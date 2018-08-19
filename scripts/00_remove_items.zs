@@ -40,11 +40,14 @@ removeAndHide(<minecraft:totem_of_undying>);
 removeAndHide(<thermalfoundation:glass>);
 removeAndHide(<thermalfoundation:meter>);
 removeAndHide(<thermalfoundation:security>);
+removeAndHide(<tconstruct:slimesling>);
+removeAndHide(<tconstruct:slime_boots>);
 removeAndHide(<twilightforest:ore_meter>);
 
 removeAll(<thermalfoundation:bait>, [ 0, 1, 2 ] as int[]);
 removeAll(<thermalfoundation:coin>, [ 0, 65, 67, 68, 69, 70, 71, 72, 96, 97, 98, 99, 100, 101, 102, 103 ] as int[]);
 removeAll(<thermalfoundation:material>, [ 512, 513, 514, 515, 771, 800, 801 ] as int[]);
+removeAll(<tconstruct:slime_boots>, [ 0, 1, 2, 4 ]);
 removeInRange(<thermalfoundation:rockwool>, 0, 15);
 removeInRange(<davincisvessels:balloon>, 0, 15);
 removeAll(<thermalfoundation:upgrade>, [ 0, 1, 2, 3, 33, 34, 35, 256 ] as int[]);

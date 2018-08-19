@@ -27,6 +27,7 @@ Here's a complete list:
 
 ### Tinkers' Construct
 ![Materials and You](item:tconstruct:book)
+![Materials and You--Armory Addendum](item:conarm:book)
 
 ### ViesCraft
 ![The 'Vies' Craft, vol.1](item:vc:guidebook_main)
