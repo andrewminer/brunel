@@ -1,6 +1,5 @@
 {
   "blockdrops": "1.4.0",
-  "netherportalfix": "5.3.13",
   "binniecore": "2.5.0.168",
   "creativecoredummy": "1.0.0",
   "animania": "1.5.1.1",
