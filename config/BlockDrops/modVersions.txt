@@ -74,7 +74,7 @@
   "conarm": "1.0.2",
   "vials": "1.2.1.5",
   "inventorytweaks": "1.63+release.109.220f184",
-  "harvestcraft": "1.12.2x",
+  "harvestcraft": "1.12.2y",
   "extrabees": "2.5.0.168",
   "vc": "5.6.1",
   "gravelores": "1.8",
